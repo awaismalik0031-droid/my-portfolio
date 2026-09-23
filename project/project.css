@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f4ff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4eddf0;
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #5133d6;
+}
+
+main p {
+    color: black;
+}
+
+main a {
+    color: black;
+}
+
+
+
+main ul {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+main li {
+    background-color: white;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 5px solid #ff8fb1;
+}
+
+
+
+main p a:only-child:hover {
+    background-color: #5133d6;
+}
+
+main > a {
+    display: inline-block;
+    background-color: #2b2a4c;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+main > a:hover {
+    background-color: black;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e0dcff;
+    margin: 30px 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    margin-top: 15px;
+    margin-right: 8px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #6d4ef0;
+}
+
+input[type="reset"] {
+    background-color: #888888;
+}
+
+footer {
+    background-color: #2b2a4c;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #e0dcff;
+    padding: 12px 20px;
+}
+
+th {
+    background-color: #6d4ef0;
+    color: white;
+}
+
+main ol {
+    list-style-position: inside;
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+main h1 {
+    color: #5133d6;
+}
+
+main h3 {
+    color: #2b2a4c;
+}
+
+main strong {
+    color: #2b2a4c;
+}
+
+td {
+    text-align: left;
+}
+
+
